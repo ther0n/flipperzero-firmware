@@ -22,6 +22,9 @@ after that on web updater page - press `Connect` button
 - And wait, if all flashed successfully - you will have all needed assets pre installed
 - Done
 
+![web_instr](https://user-images.githubusercontent.com/10697207/190942577-9d137e01-468b-4c74-8587-c2a17c3c7534.jpg)
+
+
 <br>
 <br>
 
@@ -40,6 +43,23 @@ after that on web updater page - press `Connect` button
 <br>
 <br>
 
+## With qFlipper (1.2.0-rc1)
+
+- Download qFlipper that allows `.tgz` installation [Download qFlipper 1.2.0-rc1 (official link)](https://update.flipperzero.one/builds/qFlipper/1.2.0-rc1/)
+- Be sure you updated to latest official release before(only if installing for the first time), and verify that microSD card is installed
+- Open latest release page - [Releases](https://github.com/Eng1n33r/flipperzero-firmware/releases/latest)
+- Download `flipper-z-f7-update-(version).tgz`
+- Launch qFlipper
+- Connect your device and select `Install from file`
+- Select `flipper-z-f7-update-(version).tgz` that you downloaded
+- Update will start
+- And wait, if all flashed successfully - you will have all needed assets pre installed
+- Done
+
+
+<br>
+<br>
+
 ## With offline update on flipper
 
 ### **Replace (CURRENT VERSION) with version that you downloaded from releases**
@@ -51,8 +71,10 @@ after that on web updater page - press `Connect` button
 - Verify that all files are present on your microSD card
 - After all you need to insert microSD card back into flipper, navigate into filebrowser, open this file 
 `update/f7-update-(CURRENT VERSION)/update.fuf`
-- Update will start, wait for all stages, and when flipper started after update, you can upload any custom [IR libs](https://github.com/logickworkshop/Flipper-IRDB), and other stuff using qFlipper or directly into microSD card
+- Update will start, wait for all stages
+- Done
 
+![manual_install](https://user-images.githubusercontent.com/10697207/190832689-8fb50d97-2820-4501-b8b7-d8e87a235d45.gif)
 
 
 <br>
